@@ -1,0 +1,47 @@
+{
+  "name": "passport-miiCard",
+  "version": "0.1.2",
+  "description": "miiCard authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "miiCard",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eugeniop/passport-miiCard.git"
+  },
+  "bugs": {
+    "url": "http://github.com/eugeniop/passport-miiCard/issues"
+  },
+  "author": {
+    "name": "Eugenio Pace",
+    "email": "eugeniop@auth0.com",
+    "url": "http://www.auth0.net/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/passport-miiCard",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "~0.1.2"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "readmeFilename": "README.md",
+  "_id": "passport-miiCard@0.1.0"
+}
