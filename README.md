@@ -23,8 +23,8 @@ these credentials and calls `done` providing a user, as well as `options`
 specifying a consumerKey, consumerSecret, and callback URL.
 
     passport.use(new miiCardStrategy({
-        consumerKey: KEY,
-        consumerSecret: SECRET,
+        clientID: ID,
+        clientSecret: SECRET,
         callbackURL: "http://127.0.0.1:3000/auth/miicard/callback"
       },
       function(accessToken, refreshToken, profile, done) {
