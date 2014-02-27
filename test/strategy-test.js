@@ -9,8 +9,8 @@ vows.describe('miiCardStrategy').addBatch({
   'strategy': {
     topic: function() {
       return new miiCardStrategy({
-        consumerKey: 'ABC123',
-        consumerSecret: 'secret'
+        clientID: 'ABC123',
+        clientSecret: 'secret'
       },
       function() {});
     },
@@ -23,8 +23,8 @@ vows.describe('miiCardStrategy').addBatch({
   'strategy when loading user profile': {
     topic: function() {
       var strategy = new miiCardStrategy({
-        consumerKey: 'ABC123',
-        consumerSecret: 'secret'
+        clientID: 'ABC123',
+        clientSecret: 'secret'
       },
       function() {});
       
@@ -76,8 +76,8 @@ vows.describe('miiCardStrategy').addBatch({
   'strategy when loading user profile and encountering an error': {
     topic: function() {
       var strategy = new miiCardStrategy({
-        consumerKey: 'ABC123',
-        consumerSecret: 'secret'
+        clientID: 'ABC123',
+        clientSecret: 'secret'
       },
       function() {});
       
